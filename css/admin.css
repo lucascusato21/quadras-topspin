@@ -26,3 +26,6 @@ select{padding:12px;border:1px solid var(--line);border-radius:11px;background:#
 
 /* Area segura no admin e configuracoes em celulares */
 @media(max-width:600px){#painel,#configPainel{padding-bottom:calc(24px + env(safe-area-inset-bottom,0px))}.config-card{margin-bottom:24px}.config-card .primary{min-height:48px}}
+
+/* Seletor de arena no painel multiarenas */
+.arena-admin-select{display:grid;grid-template-columns:auto minmax(0,1fr);align-items:center;gap:12px}.arena-admin-select label{margin:0}.arena-admin-select select{width:100%;font-weight:800;color:var(--brand)}@media(max-width:600px){.arena-admin-select{grid-template-columns:1fr;gap:6px}}
