@@ -4,3 +4,6 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}body{min-width:0;overfl
 
 /* Datas do app: DD/MM/AAAA, legíveis em qualquer tela */
 .date{white-space:nowrap;min-width:126px;text-align:center;font-variant-numeric:tabular-nums}@media(max-width:600px){.dates{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));overflow:visible}.date{min-width:0;width:100%}}@media(max-width:340px){.dates{grid-template-columns:1fr}}
+
+/* Seletor de data por calendário */
+.calendar-label{margin-top:4px}.calendar-input{min-height:52px;background:#fff;color:var(--ink);font-weight:700;cursor:pointer;color-scheme:light}.calendar-input::-webkit-date-and-time-value{text-align:left}.weekday{margin:10px 2px 0;text-transform:capitalize;font-weight:600}@media(max-width:600px){.calendar-input{font-size:16px;width:100%}}
