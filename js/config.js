@@ -1,0 +1,1 @@
+window.TOPSPIN_CONFIG={url:"https://fljcrmtgmwuscqmrwjla.supabase.co",key:"sb_publishable__VXyE-7BV1Py4hK5N8_nHQ_ahYewOUi"};
