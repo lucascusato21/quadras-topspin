@@ -15,3 +15,6 @@ body{padding-bottom:env(safe-area-inset-bottom,0)}main{padding-bottom:calc(48px 
 
 /* Ajustes finais para navegadores móveis */
 body{padding-bottom:env(safe-area-inset-bottom,0)}main{padding-bottom:calc(48px + env(safe-area-inset-bottom,0px))}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid rgba(17,107,79,.28);outline-offset:2px}.error:empty{display:none}@media(max-width:600px){main{padding-bottom:calc(88px + env(safe-area-inset-bottom,0px))}.card:last-child{margin-bottom:18px}}
+
+/* Plataforma multiarenas */
+.arena-picker{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:16px 0 8px}.arena-choice{display:flex;flex-direction:column;align-items:flex-start;text-align:left;gap:4px;padding:14px;background:var(--card)}.arena-choice strong{font-size:1rem}.arena-choice span{font-size:.86rem;color:var(--muted)}.arena-choice.active{border-color:var(--brand);background:#e9f5f0;color:var(--brand)}.arena-choice.active span{color:var(--brand)}.arena-info{margin:8px 0 16px;padding:10px 12px;border-radius:12px;background:#edf5f2;color:var(--brand);font-weight:700}@media(max-width:600px){.arena-picker{grid-template-columns:1fr}.arena-choice{min-height:64px}}
