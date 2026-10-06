@@ -7,3 +7,6 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}body{min-width:0;overfl
 
 /* Seletor de data por calendário */
 .calendar-label{margin-top:4px}.calendar-input{min-height:52px;background:#fff;color:var(--ink);font-weight:700;cursor:pointer;color-scheme:light}.calendar-input::-webkit-date-and-time-value{text-align:left}.weekday{margin:10px 2px 0;text-transform:capitalize;font-weight:600}@media(max-width:600px){.calendar-input{font-size:16px;width:100%}}
+
+/* iOS: manter o seletor de data dentro do card */
+.calendar-input{display:block;width:100%;max-width:100%;min-width:0;box-sizing:border-box}.calendar-input::-webkit-date-and-time-value{min-width:0}.calendar-input::-webkit-calendar-picker-indicator{margin-left:auto}@media(max-width:600px){#booking .card{overflow:hidden}.calendar-input{inline-size:100%;min-inline-size:0;max-inline-size:100%;padding:12px;font-size:16px}.weekday{max-width:100%;overflow-wrap:anywhere}}
