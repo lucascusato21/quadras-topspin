@@ -23,3 +23,6 @@ select{padding:12px;border:1px solid var(--line);border-radius:11px;background:#
 
 /* Revisão final: área segura em navegadores móveis */
 @media(max-width:600px){#painel,#configPainel{padding-bottom:calc(24px + env(safe-area-inset-bottom,0px))}.config-card{margin-bottom:24px}.config-card .primary{min-height:48px}}
+
+/* Area segura no admin e configuracoes em celulares */
+@media(max-width:600px){#painel,#configPainel{padding-bottom:calc(24px + env(safe-area-inset-bottom,0px))}.config-card{margin-bottom:24px}.config-card .primary{min-height:48px}}
