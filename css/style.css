@@ -12,3 +12,6 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}body{min-width:0;overfl
 
 /* Revisão final mobile, acessibilidade e safe areas */
 body{padding-bottom:env(safe-area-inset-bottom,0)}main{padding-bottom:calc(48px + env(safe-area-inset-bottom,0px))}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid rgba(17,107,79,.28);outline-offset:2px}.error:empty{display:none}@media(max-width:600px){main{padding-bottom:calc(88px + env(safe-area-inset-bottom,0px))}.card:last-child{margin-bottom:18px}.calendar-input{appearance:auto;-webkit-appearance:auto}}
+
+/* Ajustes finais para navegadores móveis */
+body{padding-bottom:env(safe-area-inset-bottom,0)}main{padding-bottom:calc(48px + env(safe-area-inset-bottom,0px))}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid rgba(17,107,79,.28);outline-offset:2px}.error:empty{display:none}@media(max-width:600px){main{padding-bottom:calc(88px + env(safe-area-inset-bottom,0px))}.card:last-child{margin-bottom:18px}}
